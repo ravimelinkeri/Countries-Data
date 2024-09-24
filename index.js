@@ -34,7 +34,7 @@ function renderCountries(data){
        
         const countryCard = document.createElement('a')
         countryCard.classList.add('country-card')
-        countryCard.href=`country-details.html?name=${country.name.common}`
+        countryCard.href=`/country-details.html?name=${country.name.common}`
         
         countryCard.innerHTML = `
             <img src="${country.flags.svg}" alt="Flag Img" class="country-flag">
