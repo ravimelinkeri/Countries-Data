@@ -90,9 +90,6 @@ fetch(`https://restcountries.com/v3.1/name/${countryName}?fullText=true`).then((
 
 modeChange.addEventListener('click', ()=>{
     darkChange.classList.toggle("dark");
-    light.style.display = "block"
-    if(light.style.display === "block"){
-        dark.style.display = "none"
     } 
 })
 
