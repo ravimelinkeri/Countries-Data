@@ -61,7 +61,7 @@ Seaechcontainer.addEventListener('input', (e)=>{
 
 modeChange.addEventListener('click', ()=>{
     darkChange.classList.toggle("dark");
-    } 
+
 })
 
 
