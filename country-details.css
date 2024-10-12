@@ -148,6 +148,22 @@
     font-weight: 700;
 }
 
+footer{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 40px;
+    width: 100%;
+    background-color: inherit;
+    box-shadow: 0 -2px 4px gray;
+}
+
+.github-link{
+    color: inherit;
+}
+
 @media (max-width:900px){
 
 .heading-one{
