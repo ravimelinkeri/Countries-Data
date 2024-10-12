@@ -61,9 +61,6 @@ Seaechcontainer.addEventListener('input', (e)=>{
 
 modeChange.addEventListener('click', ()=>{
     darkChange.classList.toggle("dark");
-    light.style.display = "block"
-    if(light.style.display === "block"){
-        dark.style.display = "none"
     } 
 })
 
